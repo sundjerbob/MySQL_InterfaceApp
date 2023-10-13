@@ -1,0 +1,211 @@
+[
+  {
+    "pravilo": "nepravilno zapoceto",
+    "opis": "nije select ni delete ni ....",
+    "predlog": "poceti sa nekom od tih kljucnih reci"
+  },
+  {
+    "pravilo": "select pa tag",
+    "opis": "Ne sme biti definisan select tag pa from tag",
+    "predlog": "postaviti * ili imena colona"
+  },
+  {
+    "pravilo": "fali from",
+    "opis": "Fali from u celom kveriju",
+    "predlog": "dodajte from"
+  },
+  {
+    "pravilo": "nije odabrana tabela",
+    "opis": "nije podesena tabela posle from-a",
+    "predlog": "odaberite tabelu"
+  },
+  {
+    "pravilo": "delete pa tag",
+    "opis": "mora da ide delete pa tag from",
+    "predlog": "ispraviti redosled"
+  },
+  {
+    "pravilo": "ne zavrsava sa tz",
+    "opis": "ne zavrsva se sa tackom zarez",
+    "predlog": "Upit mora da se zavrsava sa ;"
+  },
+  {
+    "pravilo": "nije odabrana atablea exec",
+    "opis": "nije podesena tabela posle exec-a",
+    "predlog": "odaberite tabelu"
+  },
+  {
+    "pravilo": "posle insert into",
+    "opis": "posle insert mora da bude definisan into",
+    "predlog": "staviti posel kljucne reci insert into"
+  },
+  {
+    "pravilo": "nije odabrana atablea insert",
+    "opis": "nije podesena tabela posle insert into-a",
+    "predlog": "odaberite tabelu"
+  },
+  {
+    "pravilo": "otvorena zagrada",
+    "opis": "upit posle tabele mora da pocne sa otvorenom zagradom",
+    "predlog": "mora da pocne sa otvorenom zagradom"
+  },
+  {
+    "pravilo": "nepotpun insert fale zagrade",
+    "opis": "fale kolone posle imena abele",
+    "predlog": "morate staviti imena kolona u zagradi posle imena tabele gde zelite da insertujete"
+  },
+  {
+    "pravilo": "kljucna rec zagrada insert",
+    "opis": "ne semju kljucne reci da budu definisane u zagradi",
+    "predlog": "obrisite kljucne reci u zagradi"
+  },
+  {
+    "pravilo": "fali value",
+    "opis": "fali values kljucna rec",
+    "predlog": "Definisite values kljucnu rec"
+  },
+  {
+    "pravilo": "fali zat zag insert pre",
+    "opis": "fali zatvorena zagrada pre values",
+    "predlog": "morate zatvoriti zagradu pre values"
+  },
+  {
+    "pravilo": "ne postoji tabela",
+    "opis": "navedena tabela ne postoji: ",
+    "predlog": "Bolje se upoznajte sa bazom pa napisite ime tabele koja postoji"
+  },
+  {
+    "pravilo": "naveden ne postoji",
+    "opis": "navedena kolona ne postoji: ",
+    "predlog": "Proverite bazu za imena kolona"
+  },
+  {
+    "pravilo": "netacan br",
+    "opis": "netaca broj kolona ocekuje se ",
+    "predlog": "Molimo vas da upisete odgovarajuci broj vrednosti"
+  },
+  {
+    "pravilo": " insert Slova van navodnika",
+    "opis": "Netacan format atributa.",
+    "predlog": "traazeni format vrednosti atributa: ('val1','val2','val3')"
+  },
+  {
+  "pravilo": "Navodnici nisu zatvoreni",
+  "opis": "Nisu zatvoreni navodnici.",
+  "predlog": "Molimo vas da zatvorite navodnike."
+  },
+  {
+    "pravilo": "update fali set",
+    "opis": "Update zahteva kljucnu rec set",
+    "predlog": "Molimo vas da kljucnu rec set "
+
+  },
+  {
+    "pravilo": "update fali where",
+    "opis": "Update upit nema kljucnu rec where",
+    "predlog": "Molimo vas da kljucnu rec where "
+
+  },
+  {
+    "pravilo": "otvorena zagrada druga",
+    "opis": "u insertu fali druga otvorena zagrada",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "zatvorena zagrada druga",
+    "opis": "u insertu fali druga zatvorena zagrada",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici zat",
+    "opis": "u insertu fale navodnici zatvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici ot",
+    "opis": "u insertu fale navodnici otvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "ima manje colona",
+    "opis": "u insertu ima manje ddefinisanih kolona nego vrednosti",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "ima vise colona",
+    "opis": "u insertu ima vise ddefinisanih kolona nego vrednosti",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici zat u",
+    "opis": "u update fale navodnici zatvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici ot u",
+    "opis": "u update fale navodnici otvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fali zarez",
+    "opis": "false zarezi",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fali zarez drugi",
+    "opis": "false zarezi u drugom delu inserta",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici zat as",
+    "opis": "posle as fale navodnici zatvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "fale navodnici ot as",
+    "opis": "polse as fale navodnici otvarajuci",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "nista posle as",
+    "opis": "nema nista posel as",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "posle as ne kljucna",
+    "opis": "posle as ne sme kljucna rec",
+    "predlog": "Molimo vas da ispravite sintaksu"
+
+  },
+  {
+    "pravilo": "group",
+    "opis": "neam group by a potrebno mu je",
+    "predlog": "dodajte group by"
+
+  },
+  {
+    "pravilo": "strani kljuc",
+    "opis": "nije strani kljuc",
+    "predlog": "Fali strani kljuc"
+
+  },
+  {
+    "pravilo": "fali on",
+    "opis": "fali on u upitu",
+    "predlog": "asd"
+
+  }
+  ]
